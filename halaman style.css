@@ -1,0 +1,129 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('WhatsApp Image 2024-11-16 at 21.53.54.jpeg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.nav-container {
+    background-color: #facde4; 
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-wrap {
+    max-width: 900px; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-tittle {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.first-tittle {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.last-tittle {
+    font-size: 18px;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    width: 90%;
+    max-width: 900px; 
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.inti-materi-1, .inti-materi-2, .inti-materi-3 {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    background-color: #ffd1f1; 
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.inti-materi-1 h2, .inti-materi-2 h2, .inti-materi-3 h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #800080; 
+}
+
+.inti-materi-1 p, .inti-materi-3 p {
+    font-size: 16px;
+    color: #4d004d;
+}
+
+
+.flowchart-1 {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.inti-materi-4 {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #ffcce6;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.inti-materi-4 h2 {
+    font-size: 20px;
+    color: #800080;
+}
+
+.inti-materi-4 p {
+    font-size: 16px;
+    color: #4d004d;
+}
+
+.tombol-next {
+    padding: 0;
+    list-style: none;
+}
+
+.tombol-next a {
+    text-decoration: none;
+    color: white;
+    background-color: #ff66a3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.tombol-next:hover a {
+    background-color: #e60073; 
+}
